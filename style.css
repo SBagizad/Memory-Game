@@ -1,19 +1,50 @@
-
+body{
+    background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk3OC1iYWNrZ3JvdW5kLTAyLWtwemd3N284LmpwZw.jpg?s=s5NNLQqZEBffAVYl3RhuOxQSxMrO51L6CDfkp3u4gX4)
+}
 #board{
-    
     color:cornflowerblue;
-    display: grid; 
-    grid-template-columns:  1fr 1fr 1fr 1fr;
-    gap: 10px;
+     /* display: grid;  */
+    /* grid-template-columns:  1fr 1fr 1fr 1fr;  */
+    gap: 50px;
+    font: 500; 
+}
+/*  
+@media screen and (max-width: 600px) {
+    #board{
+        grid-template-columns:  1fr 1fr; 
+    }
+}  */
+
+#tytle{
+    color:rgb(23, 4, 41);
+    text-align: center;
+    font-size: 80px;
+    font-style:unset;
+    font-display:unset;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', bold, sans-serif;
+    text-decoration: double;
+    font-kerning: initial;
+    font-weight: 200;
 }
 
 .cards{
     background-color: rgb(56, 8, 119);
-    border: 1px solid rgb(58, 58, 13);
-    height: 100px;
+    border: 1px solid rgb(38, 212, 239);
+    border-radius: 10px;
+    height: 200px;
+    /* width:100px; */
     min-width: 100px;
     color:cornflowerblue;
+    cursor:pointer;
+    font-size: 100px;
+    padding: 4px;
+    text-align: center;
+    /* line-height: 1.8; */
+    /* box-sizing: border-box; */
+    /* size: 5px; */
 }
 
-
+.cards:hover{
+    background-color: yellow;
+}
 
