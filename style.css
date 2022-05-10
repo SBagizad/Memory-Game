@@ -1,10 +1,14 @@
+/* 
+.class
+#ID
+ */
 body{
     background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk3OC1iYWNrZ3JvdW5kLTAyLWtwemd3N284LmpwZw.jpg?s=s5NNLQqZEBffAVYl3RhuOxQSxMrO51L6CDfkp3u4gX4)
 }
 #board{
     color:cornflowerblue;
-     /* display: grid;  */
-    /* grid-template-columns:  1fr 1fr 1fr 1fr;  */
+     /* display: grid;  
+        grid-template-columns:  1fr 1fr 1fr 1fr;  */
     gap: 50px;
     font: 500; 
 }
@@ -13,17 +17,40 @@ body{
     #board{
         grid-template-columns:  1fr 1fr; 
     }
-}  */
+}  
+*/
+/* 
+.example{
+color: aqua; 
+ }  
+ */
+ span{ 
+        border: 3px solid black ;
+        color: black;
+        border-radius: 100px;
+        margin: 40px; 
+        font-size: 30px;
+        display:flex;
+        
+        /* justify-content: center; */
+
+        /* padding: 0.01px;
+        text-align: center; */
+        /* height: 200px;
+        min-width: 100px;*/
+       gap: 50px; 
+        /* font: 10;  */
+
+
+ }
 
 #tytle{
     color:rgb(23, 4, 41);
     text-align: center;
-    font-size: 80px;
-    font-style:unset;
+    font-size: 100px;
+    font-style:bold;
     font-display:unset;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', bold, sans-serif;
     text-decoration: double;
-    font-kerning: initial;
     font-weight: 200;
 }
 
@@ -48,3 +75,7 @@ body{
     background-color: yellow;
 }
 
+.turn{
+    color:pink
+
+}
