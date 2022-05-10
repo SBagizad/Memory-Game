@@ -36,8 +36,8 @@ function init() {              //מאתחל את הקוד את הלוח
         const element = createCard(i)
         board.appendChild(element)
     }
-    player1.innerText = `name:${players[0].name} score: ${players[0].score} `
-    player2.innerText = `name:${players[1].name} score: ${players[1].score} `
+    player1.innerText = `${players[0].name} score: ${players[0].score} `
+    player2.innerText = `${players[1].name} score: ${players[1].score} `
 
 }
 init();//קריאה לפנוקציה והקלפים  עולים
@@ -85,7 +85,7 @@ function createCard(idx) {//  שזה בעצם עבור כל קלף מכניסי�
                     document.getElementById(openCards[1]).innerHTML = '<img src="./images.jpg" height="180" width="150">';
                     openCards = []
                     cnt = 0
-                }, 2000)
+                }, 1000)
             }
         }
 
@@ -93,8 +93,8 @@ function createCard(idx) {//  שזה בעצם עבור כל קלף מכניסי�
 
         turnClass();
 
-        player1.innerText = `name:${players[0].name} score: ${players[0].score} `
-        player2.innerText = `name:${players[1].name} score: ${players[1].score} `
+        player1.innerText = `${players[0].name} score: ${players[0].score} `
+        player2.innerText = `${players[1].name} score: ${players[1].score} `
     });
 
 
@@ -107,14 +107,17 @@ function shuffle(arr) {
 }
 
 function turnClass() {
+    const defClass = "col-12 col-sm-6 col-md-3 py-4 player"
     if (turn === 0) {
-        player1.className = "turn"
-        player2.className = ""
+        player1.className = defClass + " turn"
+        player2.className = defClass
     }
     else {
-        player1.className = ""
-        player2.className = "turn"
+        player1.className = defClass
+        player2.className = defClass + " turn"
     }
 }
 
 
+arr[0, 0] == arr[1, 1] == arr[2.2]
+arr[0][1] == arr
