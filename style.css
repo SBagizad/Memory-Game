@@ -38,20 +38,21 @@ color: aqua;
         text-align: center; */
         /* height: 200px;
         min-width: 100px;*/
-       gap: 50px; 
+       /* gap: 50px;  */
         /* font: 10;  */
 
 
  }
- #h{ 
+ #tytle{ 
     font-family: 'Josefin Sans', sans-serif;
+    color:rgb(45, 4, 4);
+    text-align:center;
     font-size: 100px;
     font-weight: bold;
-    text-align:center;
-    color: rgb(77, 9, 9)
 
-}
-/* 
+
+} 
+/*  
 #tytle{
     color:rgb(23, 4, 41);
     text-align: center;
@@ -60,10 +61,10 @@ color: aqua;
     font-display:unset;
     text-decoration: double;
     font-weight: 200;
-} */
+}  */
 
 .cards{
-    background-color: rgb(56, 8, 119);
+    background-color: rgb(42, 8, 86);
     border: 1px solid rgb(38, 212, 239);
     border-radius: 10px;
     height: 200px;
